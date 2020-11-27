@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">    
+    <title>MODERN</title>
+    
+</head>
+<body>
+ <section id="banner">
+     <img src="images/logo.png" class="logo">
+     <div id="banner-text">
+         <h1>Raju Naai</h1>
+        <p>baal kaat te - kaat te shayeri bhi sunate hein</p>
+        <div class="banner-btn">
+            <a href="#"><span></span> Find out</a>
+            <a href="#"><span></span>Read more</a>
+        </div>
+     </div>
+</section>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li> <a href="#">HOME</a></li>
+            <li> <a href="#">FEATURES</a></li>
+            <li> <a href="#">SERVICES</a></li>
+            <li> <a href="#">USER REVIEWS</a></li>
+         </ul>
+        </nav>
+</div>
+<div id="menuBtn">
+    <img src="images/menu.png" alt="menuBtn">
+</div>
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px"
+
+menuBtn.onclick = function(){
+     if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0" ;
+     }
+     else{
+            sideNav.style.right = "-250px" ;
+         }
+     }
+
+ 
+</script>
+
+<!--Features-->
+<section id="feature"> 
+    <div class="title-text">
+        <p>FEATURES</p>
+        <h1>Why choose us</h1>
+    </div>
+    <div class="feature-box">
+        <div class="features">
+            <h1>Experienced staff</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-shield" aria-hidden="true"></i>
+                </div>
+                <div class="feature-text">
+                    <p> the original words of an author or speaker, as opposed to a translation, paraphrase, commentary, or the like:</p>
+                </div>
+            </div>
+            <h1>Pre booking online</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                </div>
+                <div class="feature-text">
+                    <p> the original words of an author or speaker, as opposed to a translation, paraphrase, commentary, or the like:</p>
+                </div>
+            </div>
+            <h1>Affordable cost</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-inr" aria-hidden="true"></i>
+                </div>
+                <div class="feature-text">
+                    <p> the original words of an author or speaker, as opposed to a translation, paraphrase, commentary, or the like:</p>
+                </div>
+            </div>
+        </div>
+        <div class="features-img">
+            <img src="images/barber-man.jpg">
+        </div>
+    </div>
+</section>
+
+<!--SERVICES-->
+
+<section id="service">
+    <div class="title-text">
+        <p>SERVICES</p>
+        <h1>we provide better</h1>
+    </div>
+    <div class="service-box">
+        <div class="single-services">
+            <img src="images/pic-1.jpg" >
+            <div class="overlay"></div>
+            <div class="service-description">
+                <h3>Hair cut</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quisquam excepturi veniam obcaecati magnam reprehenderit 
+
+                </p>
+            </div>
+        </div>
+        <div class="single-services">
+            <img src="images/pic-2.jpg" >
+            <div class="overlay"></div>
+            <div class="service-description">
+                <h3>beard trimming</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quisquam excepturi veniam obcaecati magnam reprehenderit 
+
+                </p>
+            </div>
+        </div> 
+        <div class="single-services">
+            <img src="images/pic-3.jpg" >
+            <div class="overlay"></div>
+            <div class="service-description">
+                <h3>Hair spa</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quisquam excepturi veniam obcaecati magnam reprehenderit 
+
+                </p>
+            </div>
+        </div>
+        <div class="single-services">
+            <img src="images/pic-4.jpg" >
+            <div class="overlay"></div>
+            <div class="service-description">
+                <h3>Hair shampoo</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quisquam excepturi veniam obcaecati magnam reprehenderit 
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+</section>
+<!--USER REVIEWS -->
+
+<section id="feedback">
+    <div class="title-text">
+        <p>USER REVIEWS</p>
+        <h1>what user says</h1>
+    </div>
+    <div class="feedback-row">
+        <div class="column">
+          
+              <div class="user">
+                <img src="images/img-1.jpg">
+                <div class="user-info">
+                    <h4>KEVIN OBRAYAN           <i class="fa fa-twitter" aria-hidden="true"></i></h4>
+                    <SMall>@kevinobrayan</SMall>
+                </div></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus voluptate adipisci, rem sed, cupiditate molestias suscipit veniam doloribus tenetur ipsum perferendis quod sequi eius. Possimus suscipit eos nostrum architecto dolorem.</p>
+        </div>
+        <div class="column"> 
+            <div class="user">
+                <img src="images/img-2.jpg">
+                <div class="user-info">
+                    <h4>HYNA         <i class="fa fa-twitter" aria-hidden="true"></i></h4>
+                    <SMall>@hyna</SMall>
+                </div>
+                </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  repellat dolor porro velit, nemo exercitationem. Asperiores hic quaerat similique, alias at id non recusandae ex in est.</p>
+        </div>
+        <div class="column">
+            <div class="user">
+                <img src="images/img-3.jpg">
+                <div class="user-info">
+                    <h4>JOHNY      <i class="fa fa-twitter" aria-hidden="true"></i></h4>
+                    <SMall>@johny</SMall>
+                </div>
+                </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reireprehenderit ex est dignissimos voluptatem. Aliquam in autem voluptatibus soluta voluptates molestias est, hic ad nostrum debitis!</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+    
+</body>
+</html>
